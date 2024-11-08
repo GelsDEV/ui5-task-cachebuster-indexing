@@ -1,14 +1,17 @@
 {
-  "name": "ui5-task-cachebuster-indexing",
+  "name": "@gelsdev/ui5-task-cachebuster-indexing",
   "version": "1.0.2",
   "description": "UI5 Tooling Task that for indexing files to enable the cachebuster directly into the dist folder",
   "main": "lib/cachebuster-indexer.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@gelsdev"
+  },
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemaiwo/ui5-task-cachebuster-indexing.git"
+    "url": "git+https://github.com/GelsDEV/ui5-task-cachebuster-indexing.git"
   },
   "keywords": [
     "ui5",
@@ -18,9 +21,9 @@
   "author": "Wouter Lemaire",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lemaiwo/ui5-task-cachebuster-indexing/issues"
+    "url": "https://github.com/GelsDEV/ui5-task-cachebuster-indexing/issues"
   },
-  "homepage": "https://github.com/lemaiwo/ui5-task-cachebuster-indexing#readme",
+  "homepage": "https://github.com/GelsDEV/ui5-task-cachebuster-indexing#readme",
   "dependencies": {
     "@ui5/builder": "^2.8.2"
   }

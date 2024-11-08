@@ -4,7 +4,7 @@
 ## Install
 
 ```bash
-npm install ui5-task-cachebuster-indexing --save-dev
+npm @gelsdev/install ui5-task-cachebuster-indexing --save-dev
 ```
 
 ## Configuration options (in `$yourapp/ui5.yaml`)

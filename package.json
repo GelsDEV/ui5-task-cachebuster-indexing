@@ -1,6 +1,6 @@
 {
   "name": "@gelsdev/ui5-task-cachebuster-indexing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "UI5 Tooling Task that for indexing files to enable the cachebuster directly into the dist folder",
   "main": "lib/cachebuster-indexer.js",
   "publishConfig": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/GelsDEV/ui5-task-cachebuster-indexing#readme",
   "dependencies": {
-    "@ui5/builder": "^2.8.2"
+    "@ui5/builder": "^4.0.3"
   }
 }
